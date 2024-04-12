@@ -1,8 +1,9 @@
 import datetime
 import sqlite3
-from flask import Flask, request, render_template, Markup
 import replicate
 import os
+
+from flask import Flask, request, render_template, Markup
 
 os.environ['REPLICATE_API_TOKEN'] = "r8_98TMBylBguhhQXPz52L79YryEYHIvGL0iGQPM"
 

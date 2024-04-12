@@ -13,4 +13,14 @@
         <p><input type = "text" name = "name" ></p>
         <p><input type= "submit" value = "Enter"></p>
     </form>
+    <button onclick="joke1()">Joke 1</button>
+    <script>
+        function joke1() {
+            alert("How many Singaporeans does it take to change a light bulb?" +
+            "Just one. but two government departments to regulate the type of " +
+            "arguments and ensure it's done in under five minutes")
+        }
+    </script>
+    <p><button onclick="joke2()">Joke 2</button></p>
+    <script src="{{url_for('static', filename='joke2.js')}}"></script>
 </div>
